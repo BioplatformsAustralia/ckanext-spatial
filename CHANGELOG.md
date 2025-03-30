@@ -1,7 +1,11 @@
 # Changelog
 
-## [Unreleased](https://github.com/ckan/ckanext-dcat/compare/v2.2.0...HEAD)
+## [Unreleased](https://github.com/ckan/ckanext-dcat/compare/v2.3.0...HEAD)
 
+## [v2.3.0](https://github.com/ckan/ckanext-spatial/compare/v2.2.0...v2.3.0) - 2025-03-06
+
+* Bump Shapely requirement [#343](https://github.com/ckan/ckanext-spatial/pull/343)
+* Fix WAF harvester [#342](https://github.com/ckan/ckanext-spatial/pull/342)
 
 ## [v2.2.0](https://github.com/ckan/ckanext-spatial/compare/v2.1.1...v2.2.0) - 2024-11-08
 
@@ -22,7 +26,7 @@
 
 * Dropped support for Python 2
 * Dropped support for the PostGIS search backend
-* Updated the common map JS module to support many different tile providers. The default Stamen Terrain tile will no longer work, and users will need to configure a map tiles provider. Please check the [documentation](https://docs.ckan.org/projects/ckanext-spatial/en/latest/map-widgets.html) for full details.
+* Updated the common map JS module to support many different tile providers. The default Stamen Terrain tile will no longer work, and users will need to configure a map tiles provider. Please check the [documentation](https://docs.ckan.org/projects/ckanext-spatial/en/latest/map-widgets/) for full details.
 * Upgrade tests to check all envs, including CKAN 2.10 with Python 3.10 [#308](https://github.com/ckan/ckanext-spatial/pull/308)
 * TypeError when spatial is missing [#306](https://github.com/ckan/ckanext-spatial/pull/306)
 * Fix requirements [#313](https://github.com/ckan/ckanext-spatial/pull/313)
